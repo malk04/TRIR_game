@@ -1,0 +1,70 @@
+*{
+    user-select: none;
+}
+
+body {
+    font-size: 1.04vw;
+    background: #c6ffdd;
+    background: linear-gradient( to right, #c0ffba, #b5faff, #cec9ff );
+    justify-content: center;
+    align-items: center;
+}
+
+#zagolovok{
+    text-align: center;
+    padding-bottom: 3.90vw;
+    font-family: Montserrat, sans-serif;
+}
+
+.main{ 
+    width: 21.43vw;
+    flex-wrap: wrap;
+    gap: 0.65vw 0;
+    padding: 0.32vw;
+    text-align: center;
+    height: 21.43vw;
+    background: white;
+    margin: auto;
+}
+
+h2{
+    font-size: 1.69vw;
+    font-family: Montserrat, sans-serif;
+}
+
+#button {
+    width: 6.36vw;
+    padding: 0.32vw;
+    background: #aca5f0;
+    text-align: center;
+    border: 0ch;
+    min-width: 6.36vw;
+    color: #fff;
+}
+
+#button:hover {
+    background: blueviolet;
+    cursor: pointer;
+}
+
+input{
+    padding:0.65vw;
+    margin:0.65vw 0;
+    font-size: 0.91vw;
+}
+
+.error{
+    color: #f33;
+    margin: 0;
+}
+
+footer{
+    margin-left: -0.53vw;
+    position: fixed;
+    bottom: 0;
+    height: 2vw; 
+    padding: 0.32vw;
+    font-family: Bradley Hand, cursive;
+    color: #008394;
+    box-sizing: border-box;
+}

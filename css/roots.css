@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-size: 1.04vw;
+    background: #c6ffdd;
+    background: linear-gradient( to right, #c0ffba, #b5faff, #cec9ff ), url(../img/kapli.png);
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+#zagolovok{
+    text-align: center;
+    padding-bottom: 2.6vw;
+    font-family: Montserrat, sans-serif;
+}
+
+.main{ 
+    width: 48.7vw;
+    height: 32.47vw;
+    background: white;
+    margin: auto;
+    box-shadow: 0 0 0.97vw 0.19vw #258dba;
+    display: inline-block;
+    outline: 0.19vw dashed #6e44e3;
+    outline-offset: -0.65vw;
+    cursor: default;
+}
+
+h2{
+    font-size: 2.34vw;
+    font-family: Monotype Corsiva;
+    margin-bottom: 0.65vw;
+    text-align: center;
+    margin-top: 2.60vw;
+    color: #4d0099;
+}
+
+h3{
+    font-size: 1.56vw;
+    font-family: Montserrat, sans-serif;
+    color: darkorchid;
+}
+
+#log{
+    margin: 0;
+    color: #6d0e99;
+}
+
+header{
+    margin: 0.65vw;
+    margin-left: 14.5%;
+    margin-bottom: 3.90vw;
+    width: 66.23vw;
+    font-size: 1.30vw;
+    padding: 0.32vw;
+    box-shadow: 0 0 0.97vw 0.19vw #258dba;
+    background: linear-gradient( to right, #fff, #b5faff, #cec9ff );
+    font-family: Monotype Corsiva;
+    text-shadow: 0 0 1.36vw rgba(223, 206, 228, 0.5), 0 -0.06vw 0 #258dba;
+}
+
+#a{
+    margin: 0.32vw;
+}
+
+.knopki{
+    width: 12.99vw;
+    height: 32.47vw;
+    display: inline-block;
+    padding: 0.32vw;
+    background: white;
+    font-size: 1.17vw;
+    vertical-align: top;
+    box-shadow: 0 0 0.97vw 0.19vw #258dba;
+    padding-top: 0.97vw;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 71.43vw;
+    padding: 0.32vw;
+    margin: auto;
+}
+
+#knopka {
+  width: 11.04vw;
+  height: 2.60vw;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 1.95vw;
+  display: block;
+  margin: auto;
+  font: normal 1.10vw arial;
+  border: 0;
+}
+
+#knopka:not(.active) {
+  box-shadow: 0 0 0.52vw 0.06vw #002b96;
+  background-image: linear-gradient(#4de8d6, #5cb8ed);
+  text-shadow: 0 0 1.36vw rgba(223, 206, 228, 0.5), 0 -0.06vw 0 #311d47;
+  cursor: pointer;
+}
+
+#knopka:not(.active):hover,
+#knopka:not(.active):focus {
+  transition: color 150ms linear, text-shadow 300ms linear;
+  color: #4d0099;
+}
+
+#knopka:not(:hover) {
+    transition: 0.6s;
+}
+
+#menu{
+    text-align: center;
+    padding-bottom: 1.30vw;
+    font-size: 1.69vw;
+    font-family: Monotype Corsiva;
+    color: #4d0099;
+    cursor: default;
+}
+
+#flamingo{
+    margin-top: 2.60vw;
+    height: 41%;
+    width: 100%;
+}
+
+#text{
+    font-size: 1.69vw;
+    margin: 2.60vw;
+    text-align: justify;
+    font-family: Bradley Hand, cursive;
+    margin-top: 1.30vw;
+    text-shadow: 0.13vw 0.06vw 0.13vw #75d3f0;
+    color: #0a5a73;
+}
+
+#now_login{
+    cursor: default;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 2vw; 
+    padding: 0.32vw;
+    font-family: Bradley Hand, cursive;
+    color: #008394;
+}

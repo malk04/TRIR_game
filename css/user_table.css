@@ -1,0 +1,180 @@
+*{
+    user-select: none;
+}
+
+body {
+    font-size: 1.04vw;
+    background: #c6ffdd;
+    background: linear-gradient( to right, #c0ffba, #b5faff, #cec9ff ), url(../img/kapli.png);
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+#zagolovok{
+    text-align: center;
+    padding-bottom: 0.65vw;
+    font-family: Montserrat, sans-serif;
+}
+
+table {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0.65vw 0.32vw;
+    background: #caadf7;
+    color: #000;
+    border: 0px solid #ECE9E0;
+    width: 38.96vw;
+    margin: auto;
+    margin-right: 3.90vw;
+    box-shadow: 0 0 0.97vw 0.19vw #258dba;
+    margin-bottom: 1.95vw;
+    cursor: default;
+}
+
+th {
+    font-size: 1.17vw;
+    padding: 0.65vw;
+    width: 33%;
+}
+
+#h_n{
+    width: 20%;
+}
+
+#n{
+    width: 20%;
+}
+
+td {
+    background: #e7d9fffd;
+    padding: 0.65vw;
+    width: 33%;
+}
+
+h2{
+    font-size: 1.69vw;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0.97vw;
+    text-align: center;
+    color: #420099;
+}
+
+p{
+    text-align: center;
+}
+
+#log{
+    margin: 0;
+    color: #6d0e99;
+}
+
+#a{
+    margin: 0.32vw;
+}
+
+header{
+    margin: 0.65vw;
+    margin-left: 16.7%;
+    width: 60.4vw;
+    font-size: 1.30vw;
+    padding: 0.32vw;
+    box-shadow: 0 0 0.97vw 0.19vw #258dba;
+    background: linear-gradient( to right, #fff, #b5faff, #cec9ff );
+    font-family: Monotype Corsiva;
+    text-shadow: 0 0 1.36vw rgba(223, 206, 228, 0.5), 0 -0.06vw 0 #258dba;
+    margin-bottom: 2.60vw;
+}
+
+.knopki{
+    width: 12.99vw;
+    height: 32.47vw;
+    display: inline-block;
+    padding: 0.32vw;
+    background: white;
+    font-size: 1.17vw;
+    vertical-align: top;
+    box-shadow: 0 0 0.97vw 0.19vw #258dba;
+    padding-top: 0.97vw;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 64.94vw;
+    padding: 0.32vw;
+    margin: auto;
+}
+
+#knopka {
+  width: 11.04vw;
+  height: 2.60vw;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 1.95vw;
+  display: block;
+  margin: auto;
+  font: normal 1.10vw arial;
+  border: 0;
+}
+
+#knopka:not(.active) {
+  box-shadow: 0 0 0.52vw 0.06vw #002b96;
+  background-image: linear-gradient(#4de8d6, #5cb8ed);
+  text-shadow: 0 0 1.36vw rgba(223, 206, 228, 0.5), 0 -0.06vw 0 #311d47;
+  cursor: pointer;
+}
+
+#knopka:not(.active):hover,
+#knopka:not(.active):focus {
+  transition: color 150ms linear, text-shadow 300ms linear;
+  color: #4d0099;
+}
+
+#knopka:not(:hover) {
+    transition: 0.6s;
+}
+
+#menu{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1.30vw;
+    font-size: 1.69vw;
+    font-family: Monotype Corsiva;
+    color: #4d0099;
+    cursor: default;
+}
+
+#crocodile{
+    margin-top: 2.60vw;
+    height: 41%;
+    width: 100%;
+}
+
+#rating{
+    margin: 0;
+    width: 38.31vw;
+    box-shadow: 0 0 0.97vw 0.19vw #258dba;
+    padding: 0.32vw;
+    margin-bottom: 1.30vw;
+    background: linear-gradient( to right, #cffcff, #c8c2ff);
+    font-family: Century Gothic;
+    cursor: default;
+}
+
+#now_login{
+    cursor: default;
+}
+
+footer{
+    margin-left: -0.53vw;
+    position: fixed;
+    bottom: 0;
+    height: 2vw; 
+    padding: 0.32vw;
+    font-family: Bradley Hand, cursive;
+    color: #008394;
+    box-sizing: border-box;
+}
