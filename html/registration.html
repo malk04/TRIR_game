@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/registration.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="../js/check_registration.js" type="text/javascript"></script>
+</head>
+<body id="page">
+	<div id="zagolovok"><h1>Лабораторная работа №7.<br>Разработка клиент-серверного игрового приложения.</h1>
+        </div>
+    <div id="successful">
+	<div class="main" id="main">
+            <h2>Регистрация</h2>
+            <form id="reg" name="reg" onsubmit="return false">
+                <div>
+                    <label>Логин: <input type="text" name="login" id="login" required placeholder="Придумайте логин"></label><br>
+                    <p class="error" id="login-error"></p>
+                </div>
+                <div>
+                    <label>Пароль:  <input type="text" name="password" id="password" required placeholder="Придумайте пароль"></label><br>
+                    <p class="error" id="password-error"></p>
+                </div>
+                <div>
+                    <label>E-mail:  <input type="text" name="mail" id="e-mail" required placeholder="Введите e-mail"></label><br>
+                    <p class="error" id="mail-error"></p>
+                </div>
+                <input type="submit" id="button" value="Зарегистрироваться">
+            </form>
+            <p>Есть аккаунт? <a href = "../index.html">Войдите!</a></p>
+        </div>
+    </div>
+    <footer>
+        <div>Powered by Anastasia Malkova</div>
+    </footer>
+</body>
+</html>
