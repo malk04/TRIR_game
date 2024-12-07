@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/roots.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="../js/roots.js" type="text/javascript"></script>
+</head>
+<body id="page">
+    <header>
+        <span id="now_login"> 
+                Вы зашли как: <span id="login_lk"></span><br>
+                <a href="logout.html">Выйти</a>
+        </span>
+    </header>
+     <div class="blocks">
+        <div class="knopki">
+            <p id="menu">Меню:</p>
+            <input type="button" id="knopka" value="Мои результаты" onclick="window.location.href = 'user_table.html'"><br>
+            <input type="button" id="knopka" value="Общий рейтинг" onclick="window.location.href = 'rating.html'"><br>
+            <input type="button" id="knopka" value="Вернуться в игру" onclick="window.location.href = '../html/lk.html'">
+            <img id="flamingo" src="../img/hm.gif" alt="" draggable="false"/>
+        </div>
+	<div class="main">  
+            <h2>Правила:</h2>
+            <p id="text">В течение некоторого времени на экране демонстрируются цифры, 
+                после чего некоторые из них скрываются. За несколько секунд вам 
+                необходимо указать, какие цифры были скрыты. У вас есть 3 жизни, 
+                то есть вы имеете право на целых 3 ошибки. Кажется, вроде бы 
+                ничего сложного, но поверьте, это не так уж и просто. Будьте внимательны. Удачи!</p>
+        </div>
+     </div>
+    <footer>
+        <div>Powered by Anastasia Malkova</div>
+    </footer>
+</body>
+</html>

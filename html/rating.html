@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/rating.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="../js/rating.js" type="text/javascript"></script>
+</head>
+<body id="page">
+    <header>
+        <span id="now_login"> 
+                Вы зашли как: <span id="login_lk"></span><br>
+                <a href="logout.html">Выйти</a>
+        </span>
+    </header>
+     <div class="blocks">
+        <div class="knopki">
+            <p id="menu">Меню:</p>
+            <input type="button" id="knopka" value="Правила игры" onclick="window.location.href = 'roots.html'"><br>
+            <input type="button" id="knopka" value="Мои результаты" onclick="window.location.href = 'user_table.html'"><br>
+            <input type="button" id="knopka" value="Вернуться в игру" onclick="window.location.href = '../html/lk.html'">
+            <img id="flamingo" src="../img/notbad.gif" alt="" draggable="false"/>
+        </div>
+	<div class="main">
+            <h2 id="rating"></h2>
+            <table id="rating_table">
+            </table>          
+        </div>
+     </div>
+    <footer>
+        <div>Powered by Anastasia Malkova</div>
+    </footer>
+</body>
+</html>
